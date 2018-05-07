@@ -5,10 +5,9 @@
 		<title>Hello World</title>
 	</head>
 	<body>
-		<?php echo "Hello World!"; ?><br />  <!-- breaks onto new line--> <!--echo makes the output show online -->
-		<?php echo "Hello" . " World!"; ?><br />   <!-- concatinates two sepaarate words together-->
+		<?php echo "Hello World!"; ?><br />  <?php // breaks onto new line and echo makes the output show online ?>
+		<?php echo "Hello" . " World!"; ?><br />   <?php // concatinates two sepaarate words togethe ?>
 		<?php echo 2 + 3; ?>
 	</body>
 </html>
-
-<!-- TESTING-->
+ <?php /* Double line php comments can be written like this.*/ ?>
