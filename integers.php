@@ -37,7 +37,6 @@
 		<?php
 
 		echo 1 + "1" /*Definitely not the same (variable vs integer) but PHP will try convert it to be the same. It's considered bad to do this, you should convert things to the same type wheen needed.*/
-
 		?>
 
 	</body>
