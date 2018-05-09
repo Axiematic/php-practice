@@ -5,15 +5,14 @@
 		<title>Logical</title>
 	</head>
 	<body>
-
+	<h2>If statements.</h2>
 	<?php
 			$a = 4;
 			$b = 3;
 
 			if ($a > $b) {
 				echo "A is larger than b.";				
-			}
-			if ($a < $b) {
+			} if ($a < $b) {
 				echo "A is NOT larger than b.";				
 			}
 	/*This code could be improved using an elseif / else function*/
@@ -25,8 +24,8 @@
 
 			$new_user = true;
 			if ($new_user) {
-				echo "<h1>Welcome!</h1>";
-				echo "<p> We're glad you're here.</p>";				
+				echo "<h3>Welcome!</h3>";
+				echo "<h4> We're glad you're here.</h4>";				
 			}
 	?>
 
@@ -44,5 +43,34 @@
 				echo "Result: {$result}";	
 	?>
 
+
+	<h2>Else and elseif statements.</h2>
+
+	<?php
+			$a = 4;
+			$b = 3;
+
+			if ($a > $b) {
+				echo "A is larger than b.";				
+			} elseif ($a < $b) {
+				echo "A is smaller than b.";				
+			} else {
+				echo "A is equal to b.";				
+			} 
+
+	?>
+	<br/>
+	<?php
+			$a = 4;
+			$b = 3;
+
+			if ($a > $b) {
+				echo "A is larger than b.";				
+			} else {
+				echo "A is smaller than b.";				
+			} 
+	/*Boh examples here work.*/
+
+	?>
 	</body>
 </html>
