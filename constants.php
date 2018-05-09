@@ -7,6 +7,7 @@
 	<body>
 
 		<h2>Constants</h2>
+		
 			<ul>
 			<li>Can't change for the whole script (one execution of the script).</li> 
 			<li>Always written in all caps.</li>
