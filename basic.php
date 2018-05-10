@@ -2,11 +2,13 @@
 
 <html lang="en">
 	<head> 
-		<title>untitled</title>
-
-		<?php ?>
+		<title></title>
 	</head>
 	<body>
+		<h2></h2>
+		<p></p>
+		<?php 
+		?>
 
 	</body>
 </html>
