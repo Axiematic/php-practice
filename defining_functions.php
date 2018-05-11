@@ -26,6 +26,12 @@
 		 }
 
 		 say_hello_to("my old friend");
+		 say_hello_to("Everyone");
+		 say_hello_loudly("JASON");
+
+		 function say_hello_loudly($word) {
+		 echo "HELLLOOOOOOO {$word}! <br/>";
+		 }
 
 		?>
 
